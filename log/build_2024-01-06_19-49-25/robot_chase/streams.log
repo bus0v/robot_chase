@@ -1,0 +1,38 @@
+[0.019s] Invoking command in '/home/user/ros2_ws/src/robot_chase/build/robot_chase': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake /home/user/ros2_ws/src/robot_chase -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/src/robot_chase/install/robot_chase
+[0.031s] -- Found ament_cmake: 1.3.2 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.179s] -- Found sensor_msgs: 4.2.2 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.210s] -- Found rosidl_generator_c: 3.1.3 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.213s] -- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.220s] -- Found rosidl_generator_cpp: 3.1.3 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.233s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.251s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.486s] -- Found rclcpp: 16.0.1 (/opt/ros/humble/share/rclcpp/cmake)
+[0.540s] -- Found rmw_implementation_cmake: 6.1.0 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.541s] -- Found rmw_fastrtps_cpp: 6.2.1 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.703s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.843s] -- Found tf2_ros: 0.25.1 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.227s] -- Found nav_msgs: 4.2.2 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.323s] -- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.413s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.413s] -- Configured cppcheck include dirs: 
+[1.413s] -- Configured cppcheck exclude dirs and/or files: 
+[1.415s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.418s] -- Added test 'lint_cmake' to check CMake code style
+[1.421s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.430s] -- Added test 'uncrustify' to check C / C++ code style
+[1.431s] -- Configured uncrustify additional arguments: 
+[1.432s] -- Added test 'xmllint' to check XML markup files
+[1.438s] -- Configuring done
+[1.453s] -- Generating done
+[1.455s] -- Build files have been written to: /home/user/ros2_ws/src/robot_chase/build/robot_chase
+[1.464s] Invoked command in '/home/user/ros2_ws/src/robot_chase/build/robot_chase' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake /home/user/ros2_ws/src/robot_chase -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/src/robot_chase/install/robot_chase
+[1.466s] Invoking command in '/home/user/ros2_ws/src/robot_chase/build/robot_chase': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/src/robot_chase/build/robot_chase -- -j8 -l8
+[1.514s] [ 50%] [32mBuilding CXX object CMakeFiles/robot_chase.dir/src/robot_chase.cpp.o[0m
+[1.595s] [100%] [32m[1mLinking CXX executable robot_chase[0m
+[1.722s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+[1.722s] (.text+0x1b): undefined reference to `main'
+[1.723s] collect2: error: ld returned 1 exit status
+[1.724s] gmake[2]: *** [CMakeFiles/robot_chase.dir/build.make:205: robot_chase] Error 1
+[1.725s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/robot_chase.dir/all] Error 2
+[1.725s] gmake: *** [Makefile:146: all] Error 2
+[1.727s] Invoked command in '/home/user/ros2_ws/src/robot_chase/build/robot_chase' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/src/robot_chase/build/robot_chase -- -j8 -l8
