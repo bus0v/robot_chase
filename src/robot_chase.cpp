@@ -26,7 +26,7 @@ class RobotChase: public rclcpp::Node{
       this->create_publisher<geometry_msgs::msg::Twist>("/rick/cmd_vel",1);
     timer_ = this->create_wall_timer(1s,std::bind(&RobotChase::on_timer, this));
     kp_yaw = 5.0;
-    kp_distance = 0.2;
+    kp_distance = 0.5;
     }
 
   private:
